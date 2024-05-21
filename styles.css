@@ -150,6 +150,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
   padding: 1.5rem;
   margin-inline: auto;
+
+  @media only screen and (width <= 500px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 .gallery {
   background-color: #124F66;
